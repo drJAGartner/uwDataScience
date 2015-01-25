@@ -1,16 +1,4 @@
-% 1 a.) Normalization is important in K means clustering because without normalization,
-%       a single dimension whose scale is much larger than others will tend to dominate,
-%       and hence you do not properly leverate multiple dimentions.
-%   b.) Categorical data becomes integer factors (e.g. "car", "bike", "boat" -> 1, 2, 3)
-%   c.) Clustering is considered unsupervised learning because there is not a target
-%       result that one hopes to achieve, rather, one inputs parameters randomely and the
-%       output is completely determined by the data.
 
-% 2 simpleAssignToCentroids creates a matrix with one row for each point, and one column
-%   for each centroid.  In this example, the centroid that corresponds to the column with
-%   the lowest value in the 17th row will be the centroid to which the 17th point is assigned.
-
-% 3
 
 
 % simpleKMeans is a 2D K-means implementation.
